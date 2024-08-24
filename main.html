@@ -4,9 +4,100 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        .block-heading {
+            color: #3b99e0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .summary {
+            border-top: 2px solid #5ea4f3;
+            background-color: #f7fbff;
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .summary button {
+            background-color: #3b99e0;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            width: 100%;
+        }
+        .product {
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+    </style>
 </head>
 
 <body>
+	<div class="container">
+    <!-- Block Heading -->
+    <div class="block-heading">
+        <h2>Shopping Cart</h2>
+    </div>
+
+    <div class="row">
+        <!-- Product Section -->
+        <div class="col-lg-8">
+            <!-- Product Block 1 -->
+            <div class="product">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://inspireonline.in/cdn/shop/files/iPhone_15_Pink_PDP_Image_Position-1__en-IN.jpg?v=1694605206&width=1445" class="img-fluid" alt="Product 1">
+                    </div>
+                    <div class="col-8">
+                        <h5>Product Name 1</h5>
+                        <p>Description of the product goes here.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Block 2 -->
+            <div class="product">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://inspireonline.in/cdn/shop/files/iPhone_15_Pink_PDP_Image_Position-1__en-IN.jpg?v=1694605206&width=1445" class="img-fluid" alt="Product 2">
+                    </div>
+                    <div class="col-8">
+                        <h5>Product Name 2</h5>
+                        <p>Description of the product goes here.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Block 3 -->
+            <div class="product">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://inspireonline.in/cdn/shop/files/iPhone_15_Pink_PDP_Image_Position-1__en-IN.jpg?v=1694605206&width=1445" class="img-fluid" alt="Product 3">
+                    </div>
+                    <div class="col-8">
+                        <h5>Product Name 3</h5>
+                        <p>Description of the product goes here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Section -->
+        <div class="col-lg-4">
+            <div class="summary">
+                <h3>Order Summary</h3>
+                <p>Subtotal: $100.00</p>
+                <p>Tax: $8.00</p>
+                <p>Total: $108.00</p>
+                <button>Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies (Optional, if you need JS functionality) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
